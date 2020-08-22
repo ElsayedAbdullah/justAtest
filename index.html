@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+  <title>Web Template With No Framework</title>
+  <link rel="stylesheet"
+    href="css/font-awesome.min.css">
+  <link rel="stylesheet"
+    href="css/normalize.css">
+  <link rel="stylesheet"
+    href="css/main.css">
+</head>
+
+<body data-default-color="default">
+
+  <!-- Start Setting Box -->
+  <div class="setting-box">
+    <div class="setting-box__toggle">
+      <i class="fa fa-gear setting-box__gear"></i>
+    </div>
+    <div class="setting-box__container">
+      <div class="option-box">
+        <h4>colors</h4>
+        <ul class="colors-list">
+          <li class="active"
+            data-color="default"></li>
+          <li data-color="blue"></li>
+          <li data-color="red"></li>
+          <li data-color="brown"></li>
+          <li data-color="green"></li>
+        </ul>
+      </div>
+      <div class="option-box">
+        <h4>Random Backgrounds</h4>
+        <div class="random-bg-btns">
+          <span class="yes active"
+            data-background='yes'>Yes</span>
+          <span class="no"
+            data-background='no'>No</span>
+        </div>
+      </div>
+      <div class="option-box">
+        <h4>Bullets options</h4>
+        <div class="bullets-option">
+          <span class="yes active"
+            data-display='show'>Yes</span>
+          <span class="no"
+            data-display='hide'>No</span>
+        </div>
+      </div>
+      <button class="reset-options">Reset Options</button>
+    </div>
+  </div>
+  <!-- End Setting Box -->
+
+  <!-- Start Bullets -->
+  <ul class="nav-bullets">
+    <li class="bullet"
+      data-section=".about-us">
+      <div class="tooltip">About Us</div>
+    </li>
+    <li class="bullet"
+      data-section=".skills">
+      <div class="tooltip">Skills</div>
+    </li>
+    <li class="bullet"
+      data-section=".gallery">
+      <div class="tooltip">Gallery</div>
+    </li>
+    <li class="bullet"
+      data-section=".timeline">
+      <div class="tooltip">Timeline</div>
+    </li>
+    <li class="bullet"
+      data-section=".features">
+      <div class="tooltip">Features</div>
+    </li>
+    <li class="bullet"
+      data-section=".testimonials">
+      <div class="tooltip">Testimonials</div>
+    </li>
+  </ul>
+  <!-- End Bullets -->
+
+
+  <!-- Start Landing Page -->
+  <section class="landing-page">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="landing-page__content">
+        <header>
+          <div class="logo">
+            <a href="index.html">Creative <span>E.S.M</span></a>
+          </div>
+          <nav>
+            <ul class="navbar">
+              <li class="nav-item"><a href="#"
+                  data-section=".about-us">About</a></li>
+              <li class="nav-item"><a href="#"
+                  data-section=".skills">Skills</a></li>
+              <li class="nav-item"><a href="#"
+                  data-section=".gallery">Gallery</a></li>
+              <li class="nav-item"><a href="#"
+                  data-section=".timeline">Timeline</a></li>
+              <li class="nav-item"><a href="#"
+                  data-section=".features">Features</a></li>
+              <li class="nav-item"><a href="#"
+                  data-section=".testimonials">Testimonials</a></li>
+            </ul>
+          </nav>
+          <button class="toggle-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </header>
+        <div class="introduction-text">
+          <h1>We are <span>creative</span>&nbsp;agency</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem reiciendis in praesentium
+            placeat rem ea? Molestiae iusto consectetur omnis?</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Landing Page -->
+
+  <!-- Start About Us -->
+  <section class="about-us py-50">
+    <div class="container">
+      <div class="about-us__content">
+        <div class="about-us__content__text">
+          <h2>About US</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore accusantium esse amet aut sunt,
+            ab sapiente quia iste nihil itaque assumenda debitis, sed, vitae totam? Beatae inventore nesciunt
+            reiciendis non.</p>
+        </div>
+        <div class="about-us__content__image">
+          <img class="img-fluid"
+            src="imgs/web_development.jpg"
+            alt="web_development">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End About Us -->
+
+  <!-- Start Our Skills -->
+  <section class="skills py-100">
+    <div class="container">
+      <h2 class="heading-2 text-center">Our Skills</h2>
+      <div class="skill-box">
+        <div class="skill-box__name">Html</div>
+        <div class="skill-box__progress">
+          <span data-progress='80%'></span>
+        </div>
+      </div>
+      <div class="skill-box">
+        <div class="skill-box__name">Css</div>
+        <div class="skill-box__progress">
+          <span data-progress='85%'></span>
+        </div>
+      </div>
+      <div class="skill-box">
+        <div class="skill-box__name">Sass</div>
+        <div class="skill-box__progress">
+          <span data-progress='70%'></span>
+        </div>
+      </div>
+      <div class="skill-box">
+        <div class="skill-box__name">Bootstrap</div>
+        <div class="skill-box__progress">
+          <span data-progress='75%'></span>
+        </div>
+      </div>
+      <div class="skill-box">
+        <div class="skill-box__name">Javascript</div>
+        <div class="skill-box__progress">
+          <span data-progress='65%'></span>
+        </div>
+      </div>
+      <div class="skill-box">
+        <div class="skill-box__name">Vue.js</div>
+        <div class="skill-box__progress">
+          <span data-progress='50%'></span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- End Our Skills -->
+
+  <!-- Start Gallery -->
+  <section class="gallery py-100">
+    <div class="container">
+      <h2 class="heading-2 text-center">Our Gallery</h2>
+      <div class="gallery__box">
+        <div>
+          <img src="imgs/01.jpg"
+            alt="Image One">
+        </div>
+        <div>
+          <img src="imgs/02.jpg"
+            alt="Image Two">
+        </div>
+        <div>
+          <img src="imgs/03.jpg"
+            alt="Image Three">
+        </div>
+        <div>
+          <img src="imgs/04.jpg"
+            alt="Image Four">
+        </div>
+        <div>
+          <img src="imgs/05.jpg"
+            alt="Image Five">
+        </div>
+        <div>
+          <img src="imgs/06.jpg"
+            alt="">
+        </div>
+        <div>
+          <img src="imgs/07.jpg"
+            alt="">
+        </div>
+        <div>
+          <img src="imgs/08.jpg"
+            alt="">
+        </div>
+        <div>
+          <img src="imgs/09.jpg"
+            alt="">
+        </div>
+        <div>
+          <img src="imgs/10.jpg"
+            alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Gallery -->
+
+  <!-- Start Timeline -->
+  <div class="timeline py-100">
+    <div class="container">
+      <div class="timeline__content">
+        <div class="year">2020</div>
+        <div class="left">
+          <div class="content">
+            <h4>Design</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos officia eveniet nemo quod! Quis
+              sit, praesentium consectetur recusandae fugiat dolorem.</p>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="right">
+          <div class="content">
+            <h4>Web Development</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos officia eveniet nemo quod! Quis
+              sit, praesentium consectetur recusandae fugiat dolorem.</p>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="year">2019</div>
+        <div class="left">
+          <div class="content">
+            <h4>Marketing</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos officia eveniet nemo quod! Quis
+              sit, praesentium consectetur recusandae fugiat dolorem.</p>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="left">
+          <div class="content">
+            <h4>Hosting</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos officia eveniet nemo quod! Quis
+              sit, praesentium consectetur recusandae fugiat dolorem.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Timeline -->
+
+  <!-- Start Features -->
+  <div class="features py-100">
+    <div class="container">
+      <h2 class="heading-2 text-center">Features</h2>
+      <div class="features__content">
+        <div class="feat-box">
+          <img src="imgs/feat.png"
+            alt="">
+          <h3>Development</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero aliquam quisquam similique,
+            praesentium quaerat nulla?</p>
+        </div>
+        <div class="feat-box">
+          <img src="imgs/feat-1.png"
+            alt="">
+          <h3>Marketing</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero aliquam quisquam similique,
+            praesentium quaerat nulla?</p>
+        </div>
+        <div class="feat-box">
+          <img src="imgs/feat.png"
+            alt="">
+          <h3>Hosting</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero aliquam quisquam similique,
+            praesentium quaerat nulla?</p>
+        </div>
+        <div class="feat-box">
+          <img src="imgs/feat-1.png"
+            alt="">
+          <h3>Seo</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero aliquam quisquam similique,
+            praesentium quaerat nulla?</p>
+        </div>
+        <div class="feat-box">
+          <img src="imgs/feat.png"
+            alt="">
+          <h3>Cloud and servers</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero aliquam quisquam similique,
+            praesentium quaerat nulla?</p>
+        </div>
+        <div class="feat-box">
+          <img src="imgs/feat-1.png"
+            alt="">
+          <h3>Database</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero aliquam quisquam similique,
+            praesentium quaerat nulla?</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Features -->
+
+  <!-- Start Testimonials -->
+  <section class="testimonials py-100">
+    <div class="container">
+      <h2 class="heading-2 testimonials__title">Testimonials</h2>
+      <div class="testimonials__content">
+        <div class="ts-box">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet eaque voluptas ex pariatur
+            consequuntur tenetur. Ullam cumque ratione culpa voluptate.</p>
+          <div class="person-info">
+            <img src="imgs/000.jpg"
+              style="width: 80px;"
+              alt="">
+            <div class="text">
+              <h4>Eslam Tharwat</h4>
+              <p>UI/UX Designer</p>
+            </div>
+          </div>
+        </div>
+        <div class="ts-box">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet eaque voluptas ex pariatur
+            consequuntur tenetur. Ullam cumque ratione culpa voluptate.</p>
+          <div class="person-info">
+            <img src="imgs/0.jpg"
+              style="width: 80px;"
+              alt="">
+            <div class="text">
+              <h4>Elsayed Abdullah</h4>
+              <p>Front-End Developer</p>
+            </div>
+          </div>
+        </div>
+        <div class="ts-box">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet eaque voluptas ex pariatur
+            consequuntur tenetur. Ullam cumque ratione culpa voluptate.</p>
+          <div class="person-info">
+            <img src="imgs/00.jpg"
+              style="width: 80px;"
+              alt="">
+            <div class="text">
+              <h4>Mahmoud Elnezamy</h4>
+              <p>Full Stack Developer</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Testimonials -->
+
+  <!-- Start Contact -->
+  <section class="contact py-100">
+    <div class="container">
+      <h2 class="heading-2 text-center">Contact Us</h2>
+      <form>
+        <div class="left">
+          <input type="text"
+            placeholder="Your Name"
+            name="name">
+          <input type="text"
+            placeholder="Your Phone"
+            name="phone">
+          <input type="email"
+            placeholder="Your Email"
+            name="email">
+          <input type="text"
+            placeholder="Subject"
+            name="subject">
+        </div>
+        <div class="right">
+          <textarea placeholder="Your Message"
+            name="message"></textarea>
+          <input type="submit"
+            value="Send">
+        </div>
+      </form>
+    </div>
+  </section>
+  <!-- End Contact -->
+
+  <!-- Start Footer -->
+  <footer>
+    <div class="container">
+      <p class="copyright">&copy; 2020 All Rights Reserved made with love by Sayed</p>
+    </div>
+  </footer>
+  <!-- End Footer -->
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
